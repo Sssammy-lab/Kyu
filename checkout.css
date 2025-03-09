@@ -177,7 +177,7 @@ a:hover{
 }
 #checkout{
     position:absolute; 
-    left:80px; top:0px; 
+    left:85px; top:0px; 
     font-size:x-large;
     font-weight:lighter;
     color:black;
@@ -197,7 +197,7 @@ a:hover{
 }
 #ordering{
     position:absolute; 
-    left:80px; top:80px; 
+    left:85px; top:80px; 
     font-size:x-large;
     font-weight:lighter;
     color:black;
