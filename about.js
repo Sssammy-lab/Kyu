@@ -31,24 +31,24 @@ function display(imgId,pId){
 function dispaly(pId,imgId){
     const p=document.getElementById(pId);
     const img=document.getElementById(imgId);
-    /*div.addEventListener('mouseover', function(){
+    div.addEventListener('mouseover', function(){
         div.style.width='300px';
         p.style.opacity='1';
     });
-    div.addEventListener('mouseout', function(){
+    /*div.addEventListener('mouseout', function(){
         div.style.width='100px';
         p.style.opacity='0';
-    });*/
+    });
     div.addEventListener('click', function(){
         div.style.width='230px';
         p.style.opacity='1';
         img.style.transform='scale(1.2)';
-    })
+    })*/
     div.addEventListener('dblclick',function(){
         div.style.width='100px';
         p.style.opacity='0';
         img.style.transform='scale(1.0)';
-    })
+    });
 }
 
 dispaly('checkout','img_1');
