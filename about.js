@@ -32,7 +32,7 @@ function dispaly(pId,imgId){
     const p=document.getElementById(pId);
     const img=document.getElementById(imgId);
     div.addEventListener('mouseover', function(){
-        div.style.width='200px';
+        div.style.width='150px';
         p.style.opacity='1';
     });
     /*div.addEventListener('mouseout', function(){
