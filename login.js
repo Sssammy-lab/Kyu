@@ -7,7 +7,7 @@ const password=document.getElementById('password');
 const submit=document.getElementById('login');
 
 submit.addEventListener('click', function(){
-    if (namee.value.trim()===""||password.value.trim()===""||password.value.length<10||mail.value.trim()===""|| !mail.value.includes ("@students.kyu.ac.ke")) {
+    if (namee.value.trim()===""||password.value.trim()===""||password.value.length<10||mail.value.trim()===""|| !mail.value.endsWith("@students.kyu.ac.ke")) {
         submit.innerHTML='Incorrect or incomplete Details';
         submit.style.fontSize='small';
         submit.style.fontWeight='bold';
