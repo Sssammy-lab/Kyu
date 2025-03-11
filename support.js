@@ -8,7 +8,7 @@ const l_subject=document.getElementById('l_subject');*/
 const messo=document.getElementById('message');
 const l_messo=document.getElementById('l_message');
 const send=document.getElementById('button');
-
+send.dataset.originalText=send.textContent;
 send.addEventListener('click',function(){
     /*if (namee.value.trim()==='') {
         l_name.innerHTML="Enter A Name:";
@@ -22,6 +22,7 @@ send.addEventListener('click',function(){
     }*/
     if (messo.value.trim()==='') {
         l_messo.innerHTML="No Message Detected";
+        send.textContent=send.dataset.originalText;
     }
 
     else{
