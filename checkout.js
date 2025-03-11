@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         //conditions for inputs
         submit.addEventListener('click', function(){
-            if (number.value.trim()===''|| number.value.trim().length!=10|| !number.value.startsWith('07'||'01')) {
+            if (number.value.trim()===''|| number.value.trim().length!=10|| !number.value.startsWith('02')) {
                 alert('Invalid Phone number. Please enter a Telkom Phone number');
             }
             /*if (username.value.trim()==='') {
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         //conditions for inputs
         submit.addEventListener('click', function(){
-            if (number.value.trim()===''|| number.value.trim().length!=10|| !number.value.startsWith('07'||'01')) {
+            if (number.value.trim()===''|| number.value.trim().length!=10|| !number.value.startsWith('07')) {
                 alert('Invalid Phone number. Please enter a Safaricom Phone number');
             }
            /* if (username.value.trim()==='') {
@@ -237,7 +237,7 @@ number_l.dataset.originalText=number_l.textContent;
 
         //conditions for inputs
         submit.addEventListener('click', function(){
-            if (number.value.trim()===''|| number.value.trim().length!=10|| !number.value.startsWith('07'||'01')) {
+            if (number.value.trim()===''|| number.value.trim().length!=10|| !number.value.startsWith('01')) {
                 alert('Invalid Phone number. Please enter an Airtel Phone number');
             }
            /*  if (username.value.trim()==='') {
