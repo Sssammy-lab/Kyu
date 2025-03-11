@@ -21,7 +21,7 @@ send.addEventListener('click',function(){
         l_subject.innerHTML="Subject Required ";
     }*/
     if (messo.value.trim()==='') {
-        l_messo.innerHTML="No Message Detected";
+        l_messo.innerHTML="No Message Detected:";
         send.textContent=send.dataset.originalText;
     }
 
